@@ -1,0 +1,12 @@
+import View.ContatosViewGUI;
+import javax.swing.SwingUtilities;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        SwingUtilities.invokeLater(() -> {
+            ContatosViewGUI frame = new ContatosViewGUI();
+            frame.setVisible(true);
+        });
+    }
+}
